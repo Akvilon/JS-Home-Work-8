@@ -1,0 +1,82 @@
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+fieldset {
+
+	height: 210px;
+	width: 600px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.box_wrapper {
+	position: relative;
+	float: left;
+}
+
+.box {
+	clear:both; 
+	text-align:right;
+	line-height: 25px;
+}
+
+
+.info_row {
+	margin-top: 30px;
+	height: 20px;
+	width: 180px;
+}
+
+label {
+	float: left;
+	padding: 30px 10px 0px 30px;
+	font-family: Helvetica;
+	font-size: 18px;
+}
+
+.tooltip {
+	position: absolute;
+	width: 200px;
+	height: 35px;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+	font-family: Helvetica;
+	color: lightgrey;
+	box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.75);
+}
+
+.first_tt {
+	display: none;
+	height: 40px;
+	top: 13px;
+	left: 325px;
+	padding: 10px 10px 0px 10px;
+}
+
+.second_tt {
+	display: none;
+	height: 40px;
+	top: 70px;
+	left: 325px;
+	padding: 10px 10px 0px 10px;
+}
+
+.third_tt {
+	display: none;
+	height: 35px;
+	padding: 15px 10px 0px 10px;
+	top: 130px;
+	left: 325px;
+}
+
+#form_button {
+	margin-top: 20px;
+	margin-left: 400px;
+	height: 50px;
+	width: 100px;
+	cursor: pointer;
+}
+
